@@ -8,7 +8,7 @@
 # the next user.
 require 'colorize'
 
-class Madlibs
+class ZooStory
     #method to call on users to put input for story
     def user_inputs
         puts "Give a adjective"
@@ -54,24 +54,24 @@ class Madlibs
     end
 
     #The story with user inputs
-    def madlib_story
+    def full_story
         puts "This is your user story".colorize(:color => :yellow)
-        
-        puts "
-        Today I went to the zoo. I saw a #{@@adjective}
-        #{@@noun} jumping up and down in its tree.
-        He #{@@past_verb}  #{@@adverb} through the large tunnel 
-        that led to its #{@@adjective2} #{@@noun2}. I got some 
-        peanuts and passed them through the cage to a gigantic 
-        gray #{@@noun3} towering above my head. Feeding that animal made
-        me hungry. I went to get a #{@@adjective3} scoop
-        of ice cream. It filled my stomach. Afterwards I had to
-        #{@@verb2} #{@@adverb2} to catch our bus. When I got home
-         I #{@@past_verb2} my mom for a #{@@adjective4} day at the zoo. "
+
+            puts "
+            Today I went to the zoo. I saw a #{@@adjective}
+            #{@@noun} jumping up and down in its tree.
+            He #{@@past_verb}  #{@@adverb} through the large tunnel 
+            that led to its #{@@adjective2} #{@@noun2}. I got some 
+            peanuts and passed them through the cage to a gigantic 
+            gray #{@@noun3} towering above my head. Feeding that animal made
+            me hungry. I went to get a #{@@adjective3} scoop
+            of ice cream. It filled my stomach. Afterwards I had to
+            #{@@verb2} #{@@adverb2} to catch our bus. When I got home
+            I #{@@past_verb2} my mom for a #{@@adjective4} day at the zoo. "
 
 
     end
 end
     #calling on each method
-    Madlibs.new.user_inputs
-    Madlibs.new.madlib_story
+    ZooStory.new.user_inputs
+    ZooStory.new.madlib_story
