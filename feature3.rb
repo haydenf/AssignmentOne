@@ -9,11 +9,13 @@
 require 'colorize'
 
 class Madlibs
-
+    #method to call on users to put input for story
     def user_inputs
         puts "Give a adjective"
-        @@adjective = gets.chomp.colorize(:color => :red)
+        @@adjective = gets.chomp.colorize(:color => :red) 
+        #changing colors so the user knows their input
         system "clear"
+        #clearing terminal screen for easy use
         puts "Give a noun"
         @@noun = gets.chomp.colorize(:blue)
         system "clear"
@@ -51,7 +53,10 @@ class Madlibs
 
     end
 
+    #The story with user inputs
     def madlib_story
+        puts "This is your user story".colorize(:color => :yellow)
+        
         puts "
         Today I went to the zoo. I saw a #{@@adjective}
         #{@@noun} jumping up and down in its tree.
@@ -67,5 +72,6 @@ class Madlibs
 
     end
 end
+    #calling on each method
     Madlibs.new.user_inputs
     Madlibs.new.madlib_story
