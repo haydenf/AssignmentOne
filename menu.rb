@@ -1,6 +1,6 @@
 # 
 require 'colorize'
-require_relative 'feature1.rb'
+# require_relative 'feature1.rb'
 
 
 class Menu
@@ -14,22 +14,19 @@ class Menu
         ██╔══██║██║  ██║╚════╝██║     ██║██╔══██╗╚════██║    
         ██║  ██║██████╔╝      ███████╗██║██████╔╝███████║    
         ╚═╝  ╚═╝╚═════╝       ╚══════╝╚═╝╚═════╝ ╚══════╝    "
-        .colorize(:color => :white , :background => :black)
+        .colorize(:color => :red , :background => :black)
         
     end
     
     def enter
         #press enter key to continue forward
-        puts "Press any key to continue".colorize(:color => :red)
+        puts "Press any key to continue".colorize(:color => :green)
         gets.chomp
         system "clear"
     end
 
-    def
-    end
-
   end
-end
+
         
                                                                        
         
