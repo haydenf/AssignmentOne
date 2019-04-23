@@ -13,28 +13,40 @@ class Madlibs
     def user_inputs
         puts "Give a adjective"
         @@adjective = gets.chomp.colorize(:color => :red)
+        system "clear"
         puts "Give a noun"
         @@noun = gets.chomp.colorize(:blue)
+        system "clear"
         puts "Give a past tense verb"
         @@past_verb = gets.chomp.colorize(:green)
+        system "clear"
         puts "Give an adverb"
         @@adverb = gets.chomp.colorize(:magenta)
+        system "clear"
         puts "Give a adjective"
         @@adjective2 = gets.chomp.colorize(:red)
+        system "clear"
         puts "Give a noun"
         @@noun2 = gets.chomp.colorize(:blue)
+        system "clear"
         puts "Give a noun"
         @@noun3 = gets.chomp.colorize(:blue)
+        system "clear"
         puts "Give a adjective"
         @@adjective3 = gets.chomp.colorize(:red)
+        system "clear"
         puts "Give a verb"
         @@verb2 = gets.chomp.colorize(:green)
+        system "clear"
         puts "Give an adverb"
         @@adverb2 = gets.chomp.colorize(:magenta)
+        system "clear"
         puts "Give a past tense verb"
         @@past_verb2 = gets.chomp.colorize(:green)
+        system "clear"
         puts "Give a adjective "
         @@adjective4 = gets.chomp.colorize(:red)
+        system "clear"
 
 
     end
