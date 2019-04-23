@@ -1,6 +1,5 @@
 Userstory
 Enter main menu
-choose amount of players
 enter the player names
 select story
 each user gets to chose a word to fill in the blank
