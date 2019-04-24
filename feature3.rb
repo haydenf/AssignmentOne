@@ -7,6 +7,7 @@
 # user has entered a word, it should clear the whole screen and go to 
 # the next user.
 require 'colorize'
+require_relative 'Feature2f.rb'
 
 class ZooStory
     #method to call on users to put input for story
@@ -69,9 +70,6 @@ class ZooStory
             #{@@verb2} #{@@adverb2} to catch our bus. When I got home
             I #{@@past_verb2} my mom for a #{@@adjective4} day at the zoo. "
 
-
     end
 end
     #calling on each method
-    ZooStory.new.user_inputs
-    ZooStory.new.madlib_story

@@ -82,5 +82,5 @@ class JungleStory
     end
 end
     #calling on each method
-    JungleStory.new.user_inputs
-    JungleStory.new.full_story
+    # JungleStory.new.user_inputs
+    # JungleStory.new.full_story
