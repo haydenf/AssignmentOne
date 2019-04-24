@@ -1,4 +1,7 @@
 #enter a name
+require_relative 'feature3.rb'
+require_relative 'feature3_2.rb'
+
 class Name
 
     def user_name
@@ -19,3 +22,23 @@ class Name
     end
 end
 Name.new.user_name
+
+class  MadStories
+    def madlib_story
+        while true
+            puts "please enter 1 for A Day At The Zoo or enter 2 for The Fun park"
+            entry_input = gets.chomp.to_i
+            break if entry_input.empty?
+
+        end
+    end 
+end
+
+def method_name
+    puts "hello"
+end
+# method_name = "hussein"
+
+MadStories.new.madlib_story
+
+
