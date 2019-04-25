@@ -18,7 +18,7 @@ user_name_input.user_name
 user_choice = ChoiceMenu.new
 zoo_story = ZooStory.new
 jungle_story = JungleStory.new
-
+#storing objects into variables to call on methods later
 
 ## this is the loop that uses a true/false case to close program
 ## or to continue with other options
@@ -31,11 +31,11 @@ while exit ==false
 #numbers to navigate
     case user_number
     when 1
-# when 1, it goes through user inputs and then prints story
+# when 1, it goes through user inputs and then goes through the two methods
         zoo_story.user_inputs
         zoo_story.full_story
     when 2
-#when 2, it goes through user inputs then prints story
+#when 2, it goes through user inputs then goes through the two methods
         jungle_story.user_inputs
         jungle_story.full_story
     when 3
@@ -76,7 +76,7 @@ while exit ==false
               T:::::::::T       h:::::h     h:::::h a::::::::::aa:::a n::::n    n::::nk::::::k   k:::::ks:::::::::::ss  
               TTTTTTTTTTT       hhhhhhh     hhhhhhh  aaaaaaaaaa  aaaa nnnnnn    nnnnnnkkkkkkkk    kkkkkkksssssssssss".colorize(:color => :red)
 
-sleep(0.4)
+sleep(0.4) #sleeps for animation 
 system "clear"
 puts "
 
@@ -130,7 +130,7 @@ puts "
         user_name_input.names.each {|name| puts name.colorize(:color => :red)}
         exit = true
     else
-        #try again
+        #try again 
         puts "invalid key buddy, try again"
     end
 end 

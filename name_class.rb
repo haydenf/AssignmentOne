@@ -10,8 +10,8 @@ class Name
    #so we can use names in other files
 
     def user_name
-        @names = [] 
-        #empoty array to store names
+        @names = [] #chose an array to store names, as it's easier to store into an array and call back on them
+        #empty array to store names
         count = 0
         puts "Please enter up to 4 names".colorize(:color => :white)
         while count < 4
@@ -19,7 +19,7 @@ class Name
         @names.push(name)
         count += 1
         system "clear"
-        break if name.empty?
+        break if name.empty? #failsafe
         ## a loop to give users option to enter up to 4 names
         puts @names
         ## prints out names to user
