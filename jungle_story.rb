@@ -14,45 +14,59 @@ class JungleStory #< Name
         #clearing terminal screen for easy use
         puts "Give a adjective".colorize(:color => :cyan)
         @@adjective2 = gets.chomp.colorize(:color => :red)
+
         system "clear"
         puts "Give a adjective".colorize(:color => :cyan)
         @@adjective3 = gets.chomp.colorize(:color => :red)
+
         system "clear"
         puts "Give an noun".colorize(:color => :cyan)
         @@noun = gets.chomp.colorize(:color => :magenta)
+
         system "clear"
         puts "Give a adjective".colorize(:color => :cyan)
         @@adjective4 = gets.chomp.colorize(:color => :red)
+
         system "clear"
         puts "Give a adjective".colorize(:color => :cyan)
         @@adjective5 = gets.chomp.colorize(:color => :red)
+
         system "clear"
         puts "Give a noun".colorize(:color => :cyan)
         @@noun2 = gets.chomp.colorize(:color => :magenta)
+
         system "clear"
         puts "Give a verb".colorize(:color => :cyan)
         @@verb = gets.chomp.colorize(:color => :green)
+
         system "clear"
         puts "Give a verb".colorize(:color => :cyan)
         @@verb2 = gets.chomp.colorize(:color => :green)
+
         system "clear"
         puts "Give an adjective".colorize(:color => :cyan)
         @@adjective6 = gets.chomp.colorize(:color => :red)
+
         system "clear"
         puts "Give a noun".colorize(:color => :cyan)
         @@noun3 = gets.chomp.colorize(:color => :magenta)
+
         system "clear"
         puts "Give a verb".colorize(:color => :cyan)
         @@verb3 = gets.chomp.colorize(:color => :green)
+
         system "clear"
         puts "Give a noun".colorize(:color => :cyan)
         @@noun4 = gets.chomp.colorize(:color => :magenta)
+
         system "clear"
         puts "Give a verb".colorize(:color => :cyan)
         @@verb4 = gets.chomp.colorize(:color => :green)
+
         system "clear"
         puts "Give a adjective".colorize(:color => :cyan)
         @@adjective7 = gets.chomp.colorize(:color => :red)
+        
         system "clear"
 
 

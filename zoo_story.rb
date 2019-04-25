@@ -11,6 +11,7 @@ require 'colorize'
 class ZooStory
     #method to call on users to put input for story
     def user_inputs
+
         system "clear"
         puts "Give a adjective".colorize(:color => :cyan)
         @@adjective = gets.chomp.colorize(:color => :red) 
@@ -19,36 +20,47 @@ class ZooStory
         #clearing terminal screen for easy use
         puts "Give a noun".colorize(:color => :cyan)
         @@noun = gets.chomp.colorize(:blue)
+
         system "clear"
         puts "Give a past tense verb".colorize(:color => :cyan)
         @@past_verb = gets.chomp.colorize(:green)
+
         system "clear"
         puts "Give an adverb".colorize(:color => :cyan)
         @@adverb = gets.chomp.colorize(:magenta)
+
         system "clear"
         puts "Give a adjective".colorize(:color => :cyan)
         @@adjective2 = gets.chomp.colorize(:red)
+
         system "clear"
         puts "Give a noun".colorize(:color => :cyan)
         @@noun2 = gets.chomp.colorize(:blue)
+
         system "clear"
         puts "Give a noun".colorize(:color => :cyan)
         @@noun3 = gets.chomp.colorize(:blue)
+
         system "clear"
         puts "Give a adjective".colorize(:color => :cyan)
         @@adjective3 = gets.chomp.colorize(:red)
+
         system "clear"
         puts "Give a verb".colorize(:color => :cyan)
         @@verb2 = gets.chomp.colorize(:green)
+
         system "clear"
         puts "Give an adverb".colorize(:color => :cyan)
         @@adverb2 = gets.chomp.colorize(:magenta)
+
         system "clear"
         puts "Give a past tense verb".colorize(:color => :cyan)
         @@past_verb2 = gets.chomp.colorize(:green)
+
         system "clear"
         puts "Give a adjective".colorize(:color => :cyan)
         @@adjective4 = gets.chomp.colorize(:red)
+
         system "clear"
 
 

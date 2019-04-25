@@ -40,19 +40,19 @@ while exit ==false
         jungle_story.full_story
     when 3
 #an information option so people can get a reminder what an adverb/noun etc is
-        puts "An adverb is a word or phrase that modifies or qualifies
+        puts "         An adverb is a word or phrase that modifies or qualifies
          an adjective, verb, or other adverb or a word group, expressing
          a relation of place, time, circumstance, manner, cause, degree,
          etc. (e.g., gently, quite, then, there ).".colorize(:color => :cyan)
-        puts "A verb a word used to describe an action, state, or occurrence,
+        puts "         A verb a word used to describe an action, state, or occurrence,
          and forming the main part of the predicate of a sentence, such as
          hear, become, happen.".colorize(:color => :cyan)
-        puts "A noun is a word (other than a pronoun) used to identify any 
+        puts "         A noun is a word (other than a pronoun) used to identify any 
          of a class of people, places, or things".colorize(:color => :cyan)
-        puts "An adjective is a word naming an attribute of a noun, such as 
-        sweet, red, or technical".colorize(:color => :cyan)
-        puts "Past tense verbs refer to actions or events in the
-        past".colorize(:color => :cyan)
+        puts "         An adjective is a word naming an attribute of a noun, such as 
+         sweet, red, or technical".colorize(:color => :cyan)
+        puts "         Past tense verbs refer to actions or events in the
+         past".colorize(:color => :cyan)
 
     when 0
 ## clears screen then thanks user for playing, uses .each and a block
@@ -103,14 +103,14 @@ puts "
                                         
                                                                                                                               
                                                                                                                       
-                        lllllll                                           iiii                                        !!! 
-                        l:::::l                                          i::::i                                      !!:!!
-                        l:::::l                                           iiii                                       !:::!
-                        l:::::l                                                                                      !:::!
-    ppppp   ppppppppp    l::::l   aaaaaaaaaaaaayyyyyyy           yyyyyyyiiiiiiinnnn  nnnnnnnn       ggggggggg   ggggg!:::!
-    p::::ppp:::::::::p   l::::l   a::::::::::::ay:::::y         y:::::y i:::::in:::nn::::::::nn    g:::::::::ggg::::g!:::!
-    p:::::::::::::::::p  l::::l   aaaaaaaaa:::::ay:::::y       y:::::y   i::::in::::::::::::::nn  g:::::::::::::::::g!:::!
-    pp::::::ppppp::::::p l::::l            a::::a y:::::y     y:::::y    i::::inn:::::::::::::::ng::::::ggggg::::::gg!:::!
+                        lllllll                                           iiii                                       !!! 
+                        l:::::l                                          i::::i                                     !!:!!
+                        l:::::l                                           iiii                                      !:::!
+                        l:::::l                                                                                     !:::!
+    ppppp   ppppppppp    l::::l   aaaaaaaaaaaaayyyyyyy           yyyyyyyiiiiiiinnnn  nnnnnnnn       ggggggggg   gggg!:::!
+    p::::ppp:::::::::p   l::::l   a::::::::::::ay:::::y         y:::::y i:::::in:::nn::::::::nn    g:::::::::ggg:::g!:::!
+    p:::::::::::::::::p  l::::l   aaaaaaaaa:::::ay:::::y       y:::::y   i::::in::::::::::::::nn  g::::::::::::::::g!:::!
+    pp::::::ppppp::::::p l::::l            a::::a y:::::y     y:::::y    i::::inn:::::::::::::::ng::::::ggggg:::::gg!:::!
     p:::::p     p:::::p l::::l     aaaaaaa:::::a  y:::::y   y:::::y     i::::i  n:::::nnnn:::::ng:::::g     g:::::g !:::!
     p:::::p     p:::::p l::::l   aa::::::::::::a   y:::::y y:::::y      i::::i  n::::n    n::::ng:::::g     g:::::g !:::!
     p:::::p     p:::::p l::::l  a::::aaaa::::::a    y:::::y:::::y       i::::i  n::::n    n::::ng:::::g     g:::::g !!:!!
