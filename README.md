@@ -54,8 +54,14 @@ ___
 ![test](https://www.dropbox.com/s/lf2lyvhxwlfc1dc/Screen%20Shot%202019-04-26%20at%203.23.13%20am.png?dl=0&raw=1)
 
 
-
 By Hayden Fuller, Hussain Musawi and Daniel Robertson
+
+https://github.com/haydenf
+
+https://github.com/dannroberts
+
+https://github.com/hussainmusawi
 ___
+
 
 
